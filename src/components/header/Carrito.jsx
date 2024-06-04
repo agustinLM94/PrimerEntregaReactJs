@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-const Carrito = () => {
+const Carrito = (props) => {
   return (
     <div className="carrito">
-    🛒 1
-    </div>  
-  )
+      🛒
+    </div>
+  );
 }
 
-export default Carrito
+export default Carrito;

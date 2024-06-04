@@ -1,32 +1,32 @@
 [
     {
         "id": 1,
-        "nombre": "Camiseta Deportiva",
+        "nombre": "Alimento 5kg",
         "precio": 19.99,
         "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Camiseta ligera y transpirable, perfecta para hacer ejercicio.",
+        "descripcion": "Alimento Balanceado DOG CHOW.",
         "categoria": {
-            "id": "ropa",
-            "nombre": "Ropa"
+            "id": "alimentos",
+            "nombre": "Alimentos"
         }
     },
     {
         "id": 2,
-        "nombre": "Zapatillas de Running",
+        "nombre": "Alimento 5kg",
         "precio": 49.99,
         "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Zapatillas con amortiguación avanzada para largas distancias.",
+        "descripcion": "Alimento Balanceado CAT CHOW.",
         "categoria": {
-            "id": "ropa",
-            "nombre": "Ropa"
+            "id": "alimentos",
+            "nombre": "Alimentos"
         }
     },
     {
         "id": 3,
-        "nombre": "Mochila Escolar",
+        "nombre": "Correa",
         "precio": 24.99,
         "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Mochila resistente y espaciosa, ideal para el día a día escolar.",
+        "descripcion": "Correa extra reforzada, 3mts de largo.",
         "categoria": {
             "id": "accesorios",
             "nombre": "Accesorios"
@@ -34,43 +34,43 @@
     },
     {
         "id": 4,
-        "nombre": "Auriculares Bluetooth",
+        "nombre": "Anti-parasitario",
         "precio": 29.99,
         "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Auriculares inalámbricos con sonido de alta calidad y batería de larga duración.",
+        "descripcion": "Antiparasitario.",
         "categoria": {
-            "id": "tecnologia",
-            "nombre": "Tecnología"
+            "id": "medicamentos",
+            "nombre": "Medicamentos"
         }
     },
     {
         "id": 5,
-        "nombre": "Reloj Inteligente",
+        "nombre": "Power comprimido",
         "precio": 79.99,
         "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Reloj con monitoreo de salud y notificaciones inteligentes.",
+        "descripcion": "Power Comprimido Gato 2 a 3kg Perro 2,5 a 5KG.",
         "categoria": {
-            "id": "tecnologia",
-            "nombre": "Tecnología"
+            "id": "medicamentos",
+            "nombre": "Medicamentos"
         }
     },
     {
         "id": 6,
-        "nombre": "Gafas de Sol",
+        "nombre": "Alimento 20kg",
         "precio": 15.99,
         "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Gafas con protección UV y diseño moderno.",
+        "descripcion": "Alimento Balanceado DOG CHOW.",
         "categoria": {
-            "id": "ropa",
-            "nombre": "Ropa"
+            "id": "alimentos",
+            "nombre": "Alimentos"
         }
     },
     {
         "id": 7,
-        "nombre": "Bolígrafo de Lujo",
+        "nombre": "Pelota de goma",
         "precio": 9.99,
         "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Bolígrafo elegante y duradero, perfecto para regalos.",
+        "descripcion": "Pelota de goma reforzada.",
         "categoria": {
             "id": "accesorios",
             "nombre": "Accesorios"
@@ -78,21 +78,21 @@
     },
     {
         "id": 8,
-        "nombre": "Cargador Inalámbrico",
+        "nombre": "Alimento 20kg",
         "precio": 19.99,
         "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Cargador rápido y eficiente compatible con la mayoría de los dispositivos.",
+        "descripcion": "Alimento Balanceado CAT CHOW.",
         "categoria": {
-            "id": "tecnologia",
-            "nombre": "Tecnología"
+            "id": "alimentos",
+            "nombre": "Alimentos"
         }
     },
     {
         "id": 9,
-        "nombre": "Termo de Acero Inoxidable",
+        "nombre": "Hueso de Goma",
         "precio": 14.99,
         "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Termo de alta calidad que mantiene las bebidas calientes o frías por horas.",
+        "descripcion": "Hueso de goma canino.",
         "categoria": {
             "id": "accesorios",
             "nombre": "Accesorios"
@@ -100,13 +100,13 @@
     },
     {
         "id": 10,
-        "nombre": "Libreta de Notas",
+        "nombre": "Nexgard 25 a 50 KG",
         "precio": 7.99,
         "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Libreta con cubierta dura y papel de alta calidad.",
+        "descripcion": "Nexgard 25 a 50 KG",
         "categoria": {
-            "id": "accesorios",
-            "nombre": "Accesorios"
+            "id": "medicamentos",
+            "nombre": "Medicamentos"
         }
     }
 ]

@@ -1,14 +1,14 @@
 [
     {
-        "id": "ropa",
-        "nombre": "Ropa"
+        "id": "medicamentos",
+        "nombre": "Medicamentos"
     },
     {
         "id": "accesorios",
         "nombre": "Accesorios"
     },
     {
-        "id": "tecnologia",
-        "nombre": "Tecnología"
+        "id": "alimentos",
+        "nombre": "Alimentos"
     }
 ]
