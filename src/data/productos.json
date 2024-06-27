@@ -3,8 +3,8 @@
         "id": 1,
         "nombre": "Alimento 5kg",
         "precio": 19.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Alimento Balanceado DOG CHOW.",
+        "imagen": "./images/-mio-cane-alto-rendimiento.jpg",
+        "descripcion": "Alimento Balanceado Mio-Cane alto rendimiento",
         "categoria": {
             "id": "alimentos",
             "nombre": "Alimentos"
@@ -14,8 +14,8 @@
         "id": 2,
         "nombre": "Alimento 5kg",
         "precio": 49.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Alimento Balanceado CAT CHOW.",
+        "imagen": "./images/CAT-CHOW-ADULTOS-HOGAREÑOS-FORTIDEFENSE-300x300.png",
+        "descripcion": "Alimento Balanceado CAT CHOW.Para gatos hogareños.",
         "categoria": {
             "id": "alimentos",
             "nombre": "Alimentos"
@@ -25,8 +25,8 @@
         "id": 3,
         "nombre": "Correa",
         "precio": 24.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Correa extra reforzada, 3mts de largo.",
+        "imagen": "./images/correa-dispenser.jpg",
+        "descripcion": "Correa extra reforzada, con una longitud de 10mts de largo.",
         "categoria": {
             "id": "accesorios",
             "nombre": "Accesorios"
@@ -36,7 +36,7 @@
         "id": 4,
         "nombre": "Anti-parasitario",
         "precio": 29.99,
-        "imagen": "https://placeholder.pics/svg/150",
+        "imagen": "./images/antiparasitario.jpg",
         "descripcion": "Antiparasitario.",
         "categoria": {
             "id": "medicamentos",
@@ -45,9 +45,9 @@
     },
     {
         "id": 5,
-        "nombre": "Power comprimido",
+        "nombre": "Pipeta para perros y gatos",
         "precio": 79.99,
-        "imagen": "https://placeholder.pics/svg/150",
+        "imagen": "./images/pipeta-perro.jpg",
         "descripcion": "Power Comprimido Gato 2 a 3kg Perro 2,5 a 5KG.",
         "categoria": {
             "id": "medicamentos",
@@ -56,10 +56,10 @@
     },
     {
         "id": 6,
-        "nombre": "Alimento 20kg",
+        "nombre": "Alimento 10kg",
         "precio": 15.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Alimento Balanceado DOG CHOW.",
+        "imagen": "./images/dogchow-cachorro.jpg",
+        "descripcion": "Alimento Balanceado DOG CHOW. Para cachorros!",
         "categoria": {
             "id": "alimentos",
             "nombre": "Alimentos"
@@ -69,7 +69,7 @@
         "id": 7,
         "nombre": "Pelota de goma",
         "precio": 9.99,
-        "imagen": "https://placeholder.pics/svg/150",
+        "imagen": "./images/pelota-goma.jpg",
         "descripcion": "Pelota de goma reforzada.",
         "categoria": {
             "id": "accesorios",
@@ -80,7 +80,7 @@
         "id": 8,
         "nombre": "Alimento 20kg",
         "precio": 19.99,
-        "imagen": "https://placeholder.pics/svg/150",
+        "imagen": "./images/CAT-CHOW-DEFENSE-NATURE-ADULTO-POLLO-Y-SALMÓN-300x300.png",
         "descripcion": "Alimento Balanceado CAT CHOW.",
         "categoria": {
             "id": "alimentos",
@@ -89,10 +89,10 @@
     },
     {
         "id": 9,
-        "nombre": "Hueso de Goma",
+        "nombre": "Collar de perro",
         "precio": 14.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Hueso de goma canino.",
+        "imagen": "./images/collar-perro.jpg",
+        "descripcion": "Collar reforzado canino.",
         "categoria": {
             "id": "accesorios",
             "nombre": "Accesorios"
@@ -100,13 +100,13 @@
     },
     {
         "id": 10,
-        "nombre": "Nexgard 25 a 50 KG",
+        "nombre": "Correa doble",
         "precio": 7.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Nexgard 25 a 50 KG",
+        "imagen": "./images/correa-para-2-perros.jpg",
+        "descripcion": "Correa para 2 perros, para mayor confort en su paseo familiar",
         "categoria": {
-            "id": "medicamentos",
-            "nombre": "Medicamentos"
+            "id": "accesorios",
+            "nombre": "Accesorios"
         }
     }
 ]
