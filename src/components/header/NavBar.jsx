@@ -29,7 +29,7 @@ export const NavBar = () => {
     };
 
     fetchCategories();
-  }, []); // Dependencia vacía para ejecutar el efecto solo una vez al montar el componente
+  }, []); 
 
   if (loading) {
     return <p>Cargando categorías...</p>;

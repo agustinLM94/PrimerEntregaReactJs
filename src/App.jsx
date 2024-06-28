@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import ItemDetailContainer from "./components/ItemDetailContainer";
 import Carrito from "./components/Carrito";
 import { CartContext, CartProvider } from "./context/CartContext";
+import {Checkout} from "./components/Checkout";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/item/:itemId" element={<ItemDetailContainer  />} />
         <Route path="/carrito" element={<Carrito/>} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/finalizar-compra" element={<Checkout/>}/>
       </Routes>
       <Footer />
     </BrowserRouter>
