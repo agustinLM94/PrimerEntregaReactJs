@@ -12,12 +12,12 @@ export const Item = ({ producto }) => {
 
   return ( 
     <div className="producto">
-      <img src={producto.imagen} alt={producto.nombre} />
-      <h2>{producto.nombre}</h2>
-      <p>${producto.precio}</p>
-      <p>{producto.descripcion}</p>
-      <Link to={`/item/${producto.id}`}>Ver más</Link>
-      <button onClick={handleAgregar}>Add to cart</button>
+      <img className='img-card' src={producto.imagen} alt={producto.nombre} />
+      <h2 className='title-card'>{producto.nombre}</h2>
+      <p className='precio-card'>${producto.precio}</p>
+      <p className='descripcion-card'>{producto.descripcion}</p>
+      <Link to={`/item/${producto.id}`} className='link-card'>Ver más</Link>
+      <button onClick={handleAgregar} className='button-card'>Add to cart</button>
     </div>
   );
 };
