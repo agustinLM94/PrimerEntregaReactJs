@@ -10,12 +10,12 @@ export const ItemDetail = ({ producto }) => {
   };
 
   return (
-    <div>
-      <img src={producto.imagen} alt={producto.nombre} />
-      <h1>{producto.nombre}</h1>
-      <p>{producto.descripcion}</p>
-      <p>${producto.precio}</p>
-      <button onClick={handleAgregar}>Add to cart</button>
+    <div className='container-item-detail'>
+      <img className='img-card' src={producto.imagen} alt={producto.nombre} />
+      <h1 className='title-card'>{producto.nombre}</h1>
+      <p className='descripcion.card'>{producto.descripcion}</p>
+      <p className='precio-card'>${producto.precio}</p>
+      <button onClick={handleAgregar} className='link-card'>Add to cart</button>
     </div>
   );
 };

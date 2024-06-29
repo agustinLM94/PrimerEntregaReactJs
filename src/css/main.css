@@ -14,6 +14,7 @@
     justify-content: space-between;
     padding: 1rem;
     align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -37,6 +38,8 @@
 .nav-link {
     color :white;
     text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
 }
 
 .nav-link.active {
@@ -45,9 +48,11 @@
 }
 
 .products-container {
-    min-height: 30vh;
-    display: grid;
-    place-items: center;
+   
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
 }
 
 .oscuro {
@@ -66,11 +71,18 @@
 }
 
 .producto {
-
+    display: grid;
     background-color: rgb(255, 235, 235);
     border-radius: .5rem;
     padding: 1rem;
+    width: 300px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /
 }
+
 
 
 .grid {
@@ -98,19 +110,20 @@ footer {
 }
 
 .button-card {
-    background-color: #263143;
-    width: 100px;
-    height: 35px;
-    border-radius: 10px;
-    border: none;
-    margin-left: 180px;
-
-    font-size: 17px;
-    font-weight: 300;
-    cursor: pointer;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 10px; 
+    right: 10px; 
+    background-color: #263143;
+    color: #bcc3ce;
+    font-size: 10px;
+    font-weight: 300;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+    
 }
 
 .precio-card{
@@ -133,5 +146,137 @@ footer {
     flex-direction: column;
     gap:1.5px;
     color: #263143;
+    margin-top: 10px;
 
 }
+
+.link-card{
+    text-decoration: none;
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    background-color: #263143;
+    color: #bcc3ce;
+    font-size: 10px; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #212529;
+    color: white;
+    padding: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    .footer_top > div {
+        flex: 1 1 0;
+    }
+
+    .footer_top{
+        display: flex;
+        justify-content: center;
+        align-items: center
+     }
+        .footer_top h2{
+        font-weight: 30060;
+        font-size: 2rem;
+        }
+
+        .footer_top .direccion{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+         }
+
+        .direccion{ 
+            align-items: end;
+         }
+
+    .footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    align-items: end;       
+    }
+        .footer_bottom .text_copy{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 10px;
+        }
+        .footer_bottom .icons a {
+        color: white;
+        letter-spacing: 2rem;
+        ;
+         }
+ }
+
+ .title-carrito-vacio{
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#bcc3ce;
+    background-color: #13161b;
+    margin-top: 150px;
+ }
+
+
+ .container-item-detail{
+    position: relative;
+    background-color: rgb(255, 235, 235);
+    border-radius: .5rem;
+    padding: 1rem;
+    width: 300px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    color: #263143;
+    font-weight: 600;
+    margin-top: 20px;
+}
+ 
+.title-carrito{
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#bcc3ce;
+    background-color: #13161b;
+}
+
+.input{
+    margin-top: 150px;
+    margin-left: 480px;
+    display: flex;
+    align-items: flex;
+    justify-content: center;
+
+    width: 350px;
+    height: 60px;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 0 15px;
+    border:  2px solid;
+    background: transparent;
+}
+
+.button-check{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 10px; 
+    right: 10px; 
+    background-color: #263143;
+    color: #bcc3ce;
+    font-size: 10px;
+    font-weight: 300;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-bottom: 110px;
+    margin-right: 400px;
+}
+    

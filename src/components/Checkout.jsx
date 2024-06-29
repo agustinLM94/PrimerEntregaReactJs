@@ -31,8 +31,8 @@ export const Checkout = () => {
     if (docId) {
         return (
             <>
-                <h1>Muchas gracias por tu compra</h1>
-                <p>Para hacer el seguimiento de tu pedido, el identificador es este: {docId}</p>
+                <h1 className="title-carrito-vacio">Muchas gracias por tu compra</h1>
+                <p className="title-carrito-vacio">Para hacer el seguimiento de tu pedido, el identificador es este: {docId}</p>
             </>
         )
     }
@@ -40,9 +40,9 @@ export const Checkout = () => {
   return (
     <div>
         <form onSubmit={handleSubmit(comprar)}>
-            <input type="text" placeholder="Ingrese su nombre" {...register("nombre")} />
-            <input type="email" placeholder="Ingrese su e-mail" {...register("email")} />
-            <button type="submit">Comprar</button>
+            <input className="input"  type="text" placeholder="Ingrese su nombre" {...register("nombre")} />
+            <input className="input" type="email" placeholder="Ingrese su e-mail" {...register("email")} />
+            <button className="button-check" type="submit">Comprar</button>
         </form>
     </div>
   )
